@@ -1,8 +1,10 @@
 {
-    "host": "localhost",
+    "host": "0.0.0.0",
     "port": 8000,
-    "token": "abc123",
+    "token": "holmes-auto-update-token",
     "hooks": {
-        "hello": "scripts/hello.sh"
+        "core": "/scripts/core.sh",
+        "web": "/scripts/web.sh",
+        "batch": "/scripts/batch.sh"
     }
 }
